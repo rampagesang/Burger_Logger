@@ -1,0 +1,31 @@
+.container {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  margin: auto;
+}
+
+body {
+  background-color: #fff3bc;
+}
+
+
+li {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+  }
+
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
