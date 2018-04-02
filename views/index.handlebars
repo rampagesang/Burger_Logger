@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Eat-Da-Burger!</h1>
 
 <div id="container">
@@ -55,3 +56,47 @@
 </div>
 
 <footer>© Copyright 2018 Sang Lee</footer>
+=======
+
+    <img src="./assets/img/burger.png">
+
+      <h1>Eat-Da-Burger!</h1>
+
+
+<div class="container">
+    <div class="notDevoured">
+        <ul>
+            {{#each burgers}} {{#unless devoured}}
+            <li>
+                {{burger_name}}
+                <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+                    Devour It!
+                </button>
+            </li>
+            {{/unless}} {{/each}}
+        </ul>
+        <h2>Devoured Burgers</h2>
+    </div>
+
+    <div class="devoured">
+        <ol class="devouredlist">
+            {{#each burgers}} {{#if devoured}}
+            <li>
+                {{burger_name}}
+            </li>
+            {{/if}} {{/each}}
+        </ol>
+    </div>
+</div>
+
+<form class="create-form">
+
+    <div class="form-group">
+              <h2>Add a Burger</h2>
+        <input type="text" id="bur" name="burger_name">
+    </div>
+    <br>
+    <button type="submit">Submit</button>
+  <p>Enter a burger you want to eat. Click the "Submit" button.</p>
+</form>
+>>>>>>> de6ebb82cbe70ec5cef74df0849013e049af00e2

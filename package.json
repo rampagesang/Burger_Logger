@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "a13-burger-sequelize",
   "version": "1.0.0",
   "description": "Log your burgers",
@@ -12,10 +13,24 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rampagesang/Burger_Logger.git"
+=======
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rampagesang/burger.git"
+>>>>>>> de6ebb82cbe70ec5cef74df0849013e049af00e2
   },
   "author": "",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/rampagesang/Burger_Logger/issues"
   },
   "homepage": "https://github.com/rampagesang/Burger_Logger#readme",
@@ -27,4 +42,17 @@
     "mysql2": "^1.4.2",
     "sequelize": "^4.7.5"
   }
+=======
+    "url": "https://github.com/rampagesang/burger/issues"
+  },
+  "homepage": "https://github.com/rampagesang/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {}
+>>>>>>> de6ebb82cbe70ec5cef74df0849013e049af00e2
 }

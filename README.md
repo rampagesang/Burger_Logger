@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Burger_Logger
 # Node Express Handlebars
 
@@ -224,3 +225,6 @@ If you have any questions about this project or the material we have covered, pl
 ## Copyright
 
 Coding Boot Camp (C) 2016. All Rights Reserved.
+=======
+# burger
+>>>>>>> de6ebb82cbe70ec5cef74df0849013e049af00e2
